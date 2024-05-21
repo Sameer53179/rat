@@ -4,7 +4,7 @@
   "description": "backbone for xhunter app",
   "main": "index.js",
   "scripts": {
-    "build": "netlifylogin, netlify deploy --prod"
+    "build": "netlify login && netlify deploy --prod"
     "start": "nodemon index.js"
   },
   "keywords": [
